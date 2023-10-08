@@ -1,0 +1,48 @@
+#reloj {
+  font-family: sans-serif;
+  font-size: 50px;
+  text-shadow: 0px 2px 4px #456789;
+  color: #e4a8a8;
+}
+h1 {
+  text-transform: uppercase;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  -webkit-text-stroke: #456789;
+  -webkit-text-stroke-width: 25px;
+  font-size: 50px;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 0.8px;
+  font-display: unset;
+  font-stretch: narrower;
+  font-variant: small-caps;
+  font-language-override: normal;
+  font-feature-settings: "case";
+  font-size-adjust: none;
+  text-align: center;
+  -webkit-text-stroke-color: rgb(37, 90, 188);
+  transition-property: -webkit-text-stroke-color;
+  transition-duration: 1s;
+  letter-spacing: 5px;
+}
+h1:hover {
+  -webkit-text-fill-color: #8eb336;
+}
+.reloj-container {
+  background-color: rgb(12, 119, 206);
+  padding: 100px;
+  max-width: 250px;
+  max-height: 350px;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 8px;
+  margin-top: 10%;
+}
+#fecha {
+  font-size: 15px;
+  letter-spacing: 10px;
+}
+.animar {
+  box-shadow: inset 10px 10px 10px 10px #7db030f2;
+  transition: all 0.2s;
+}
